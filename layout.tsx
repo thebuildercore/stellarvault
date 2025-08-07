@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Cross-Chain Yield Gateway",
   description: "Maximize your yield on Stellar with cross-chain asset bridging and DeFi optimization",
-    generator: 'v0.dev'
+  
 }
 
 export default function RootLayout({
