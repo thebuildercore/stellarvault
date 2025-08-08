@@ -13,7 +13,6 @@ Users bring in assets from other chains (ETH, BSC, Solana, etc.).
 
 These get wrapped into Stellar-compatible tokens (e.g., wETH → Stellar-wETH).
 
-You could even use simulated bridging for demo/hackathon.
 
 2. Yield Optimization Engine
 
@@ -21,7 +20,7 @@ Once wrapped, the user can choose to:
 
 Manually allocate tokens to DeFindex vaults, Soroswap LPs, etc.
 
-OR use the auto-yield optimizer: It scans yield rates and auto-moves funds to the highest APY source.
+Optional use the auto-yield optimizer: It scans yield rates and auto-moves funds to the highest APY source.
 
 3. Liquid Exit Options
 
@@ -29,7 +28,8 @@ Withdraw earnings any time back to their original wallet.
 
 Or instantly swap into high-liquidity assets (like XLM, USDC) via Soroswap.
 
-Users can also stay in-platform and earn in your custom coin for loyalty or lower fees.
+Users can also stay in-platform and earn in XLM coin for loyalty or lower fees.
+
 ---
 
 #Tech Stack:
